@@ -158,7 +158,7 @@ to your own modified versions of Mura CMS.
 <cffunction name="setListFormat" returntype="string" output="false">
 	<cfargument name="listFormat">
 	<cfset this.listFormat=arguments.listFormat>
-	<cfreturn this/>
+	<cfreturn this.listFormat />
 </cffunction>
 
 <cffunction name="loadJSLib" returntype="void" output="false">
